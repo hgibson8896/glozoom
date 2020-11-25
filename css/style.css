@@ -1,3 +1,8 @@
+body {
+    overflow-x: hidden;
+}
+
+
 /* NAV */
 
 .navbar .nav-link {
@@ -34,4 +39,88 @@
     background: url('../img/image2.jpg');
     background-size: cover;
     
+}
+
+/* HOME HEADING */
+
+#home-heading {
+    position: relative;
+    min-height: 200px;
+    background: url('../img/lights.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+
+}
+
+.dark-overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.7);
+}
+
+/* VIDEO */
+
+#video-play {
+    position: relative;
+    min-height: 200px;
+    background: url('../img/media.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:0 -300px;
+    text-align: center;
+    color: white;
+
+}
+
+#video-play a {
+    color:#ffff;
+
+}
+
+/* ABOUT HEADER */
+
+#page-header{
+    height:200px;
+    background: url('../img/image1.jpg');
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color:#ffff;
+    border-bottom: 1px #eeee solid;
+    padding-top:50px;
+
+
+
+}
+
+.about-img {
+    margin-top: -50px;
+}
+
+
+/* SERVICES FAQ */
+
+#faq .card {
+    border: #444444;
+}
+
+#faq a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+#faq .card-body, #faq .card-header {
+    background: #333333;
+}
+
+
+/* FOOTER */
+
+#main-footer {
+    background: #000000;
+    color: #ffffff;
 }
